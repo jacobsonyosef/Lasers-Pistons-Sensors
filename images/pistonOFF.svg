@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #252525;
+      }
+
+      .cls-2 {
+        fill: #464646;
+        stroke: #464646;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-width: 8px;
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #000;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="7" y="8" width="186" height="183"/>
+  <path class="cls-2" d="M178,8h15V191H178V8Z"/>
+  <path id="Outline" class="cls-3" d="M7,8H170V191H7V8Z"/>
+</svg>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <script type="module" src="./lsp.js"></script>
+    <title>Lasers, Sensors, and Pistons</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0 auto;
+            padding: 0;
+            text-align: center; /* Center aligns all inline or inline-block content of the body */
+            background-color: #e9e9e9; /* Background color for better visibility */
+        }
+
+        #info {
+            width: 100%;
+            height: 5vh;
+        }
+
+        .gridItem {
+            height: 100%;
+            width: 100%;
+            max-width: 100%;
+            object-fit: fill;
+        }
+
+        #gameDisplay {
+            display: grid;
+            margin: 0 auto;
+            max-width: 800px;
+            max-height: 80vh;
+        }
+
+        .context-menu { 
+            position: absolute; 
+            text-align: center; 
+            background: lightgray; 
+            border: 1px solid black; 
+        } 
+  
+        .context-menu ul { 
+            padding: 0px; 
+            margin: 0px; 
+            min-width: 150px; 
+            list-style: none; 
+        } 
+  
+        .context-menu ul li { 
+            padding-bottom: 7px; 
+            padding-top: 7px; 
+            border: 1px solid black; 
+        } 
+  
+        .context-menu ul li a { 
+            text-decoration: none; 
+            color: black; 
+        } 
+  
+        .context-menu ul li:hover { 
+            background: darkgray; 
+        } 
+    </style>
+</head>
+<body>
+    <div id="info"><h2></h2></div>
+    <div id="gameDisplay"></div>
+    <div id="controls">
+        <button id="start">Start</button>
+        <button id="reset">Reset</button>
+    </div>
+    <div id="contextMenu" class="context-menu" 
+    style="display:none"> 
+    <ul> 
+        <li id="option1"><a href="#">Element-1</a></li> 
+        <li id="option2"><a href="#">Element-2</a></li>
+    </ul> 
+</div> 
+</body>
+</html>

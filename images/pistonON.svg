@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: red;
+      }
+
+      .cls-2 {
+        fill: #252525;
+      }
+
+      .cls-3 {
+        fill: #464646;
+        stroke: #464646;
+      }
+
+      .cls-3, .cls-4 {
+        stroke-width: 8px;
+        fill-rule: evenodd;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke: #000;
+      }
+    </style>
+  </defs>
+  <rect id="Rectangle_1_copy" data-name="Rectangle 1 copy" class="cls-1" x="56" y="50" width="148" height="100"/>
+  <rect class="cls-2" x="7" y="8" width="159" height="183"/>
+  <path class="cls-3" d="M246,8h15V191H246V8Z"/>
+  <path id="Outline" class="cls-4" d="M7,8H170V191H7V8Z"/>
+</svg>

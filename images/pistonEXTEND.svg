@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: red;
+      }
+
+      .cls-2 {
+        fill: #464646;
+        stroke: #464646;
+        stroke-width: 8px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="-26" y="50" width="200" height="100"/>
+  <path class="cls-2" d="M178,8h15V191H178V8Z"/>
+</svg>

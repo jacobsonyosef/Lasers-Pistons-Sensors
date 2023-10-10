@@ -1,0 +1,22 @@
+{
+  "name": "LSP",
+  "version": "1.0.0",
+  "description": "A simple puzzle game to demonstrate JavaScript proficiency",
+  "main": "lsp.js",
+  "type": "module",
+  "keywords": [
+      "game",
+      "programming",
+      "puzzle",
+      "javascript",
+      "puzzle game"
+  ],
+  "author": "Yosef Jacobson",
+  "license": "MIT",
+  "dependencies": {
+      "express": "^4.18.2",
+      "http-server": "^14.1.1",
+      "jsdom": "^22.1.0",
+      "node-fetch": "^2.6.7"
+  }
+}
